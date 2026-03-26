@@ -84,6 +84,7 @@
               0 1px #fff,
               -1px 0 #fff,
               0 -1px #fff;
+  z-index: 1;
 }
 
 @supports (-webkit-text-stroke: 1px #fff) {
@@ -98,6 +99,39 @@
   flex-direction: column;
   gap: 25px;
   padding: 25px;
+  border-top: 2px solid #000;
+}
+
+.card__image-saturate {
+  filter: saturate(150%);
+}
+
+.card__image-bright {
+  filter: brightness(40%);
+}
+
+.card__image-sepia {
+  filter: sepia(0.8);
+}
+
+.card__image-rotate {
+  filter: hue-rotate(120deg) brightness(70%);
+}
+
+.card__image-invert {
+  filter: invert(80%);
+}
+
+.card__image-gray {
+  filter: grayscale(70%);
+}
+
+.card__image-blur {
+  filter: blur(3px);
+}
+
+.card__image-contrast {
+  filter: contrast(150%);
 }
 
 .buttons__wrapper {
