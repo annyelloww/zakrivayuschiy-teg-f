@@ -4,6 +4,8 @@
     --accent-font: 'Press Start';
     --h-weight: 715;
     --txt-weight: 410;
+    --accent-color: #000;
+    --basic-color: #fff;
     --bg-image: repeating-linear-gradient(
                 to right, 
                 #d3d3d3 0px 2px,
